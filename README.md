@@ -16,6 +16,5 @@ With an appropriate first data source downloaded it was now time to select appro
 
 <img width="1173" alt="MidCoast_Regional_Map" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/37eb0c87-90be-49aa-adb3-7782e230b635">
 
-Reference: MidCoast Council. Our Region
+Reference: [MidCoast Council. Our Region](https://www.midcoast.nsw.gov.au/Your-Council/About-MidCoast-Council/About-us/Our-region)
 
-(https://www.midcoast.nsw.gov.au/Your-Council/About-MidCoast-Council/About-us/Our-region)
