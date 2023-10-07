@@ -21,3 +21,11 @@ Reference: [MidCoast Council. Our Region](https://www.midcoast.nsw.gov.au/Your-C
 With this in mind I returned to the dashboard and began to select LGA's that were of comparable geography for my analysis. In total, 39 LGA's were selected (including the MidCoast) and their Council names were downloaded from the dashboard as an xlsx. file. The following is screenshot of the selected LGA's on the SA2 Region Dashboard.
 
 <img width="1173" alt="LGAs_Selected" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/76c45f8c-fb7f-445b-93e5-ea0305095261">
+
+Following this I had all of the required information to begin preparing my data for analysis. I had appropriate sources form which to extract insights into Agricultural production along the NSW east coast as well as a list of 39 LGA's from which to compare against the MidCoast. The only issue that I has with the data was that it included all 485 LGA in Australia. In order to extract the data from this extensive dataframe I was given a few options. I was able to take the two dataframes and perform a LEFTJOIN, matching the larger dataframe to my smaller table of 39 LGA names, or I could perform a VLOOKUP() in excel and pull the data into a new table. Given that I was already working in excel (and the fact my workplace does not have any licensing for Intergrated Development Environments (IDE's), I would go down the VLOOKUP() route.
+
+The first step in this process was to create a new excel workbook that contained both of the relevant dataframes. While this could have been done across workbooks, for the sake of simplifying the cell referenceing and keeping the original data unedited, I opted to create a new book. This new book now contained a copy of the original 485 LGA's and all of their related data in a single sheet, and the 39 selected LGA's and some other data (Lat & Long, Geometry) that was automatically pulled form the dashboard.
+
+<img width="1440" alt="ABS_LGA_Data" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/a4fc1994-d2d6-48d7-9c47-1792389ddcf2">
+<img width="1440" alt="LGA_Dashboard_Data" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/fb82caa0-b313-4ad6-86ce-6978dad97a50">
+
