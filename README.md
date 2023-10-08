@@ -46,7 +46,7 @@ This was achieved with the following code. . .
 
 =[@[Region label]]&" - "&[@[Commodity description]]
 
-<img width="1440" alt="Reference_column " src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/ee098a50-520e-44fc-9f89-1ca175ffc79c">
+<img width="1173" alt="Reference_column " src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/ee098a50-520e-44fc-9f89-1ca175ffc79c">
 
 The purpose of creating this helper column was to give each row in the LGA data a unique value that could be called upon to fill the LGA_map_data dataframe. By creating a VLOOKUP() with a "lookup_value" that paired with these unique values, I could be sure that the data being pulled across from the ABS was correct. The following code was used to achieve this. . .
 
@@ -54,10 +54,11 @@ The purpose of creating this helper column was to give each row in the LGA data 
 
 In the code above the "$" signs were used to ensure that when the code was dragged across the rest of the cells for the dataframe, the VLOOKUP() continued to reference the correct cells (LGA & Commodity description) in the table.
 
-<img width="1440" alt="VLOOKUO_Showcase" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/83305c3f-d92e-4abe-b146-3f222f1f0475">
+<img width="1173" alt="VLOOKUO_Showcase" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/83305c3f-d92e-4abe-b146-3f222f1f0475">
 
+The issue with the above code is that for some LGA's certain commodities were not produced, and as such are absent from the ABS reference table. To resolve this issue, the VLOOKUP() was wrapped in an simple IFERROR() function and made to return a "0" value. This was used to fill the dataframe. following which the data was converted into a table with appropriate formatting.
 
+<img width="1173" alt="Working_Dataframe_Showcase" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/52226d27-d236-4d9e-94f9-1dcaf60e50e9">
 
+With the table correctly filled with data and formatted, I was able to conduct my first round of investigatory analysis, evaluating the Gross Agricultural Value of other coastal Local Government Areas against the MidCoast.
 
-
-This required the use of VLOOKUP() to match the "LGA" and commodity description that was now being used as a column headers
