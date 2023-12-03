@@ -60,5 +60,5 @@ The issue with the above code is that for some LGA's certain commodities were no
 
 <img width="1173" alt="Working_Dataframe_Showcase" src="https://github.com/HarryLloyd231196/Gross_Agricultural_Value/assets/142588638/52226d27-d236-4d9e-94f9-1dcaf60e50e9">
 
-With the table correctly filled with data and formatted, I was able to conduct my first round of investigatory analysis, evaluating the Gross Agricultural Value of other coastal Local Government Areas against the MidCoast.
+With the table correctly filled and data  formatted, the following stages of this analysis were undertaken in R Studio to allow for a highly tailored approach to the investigation.
 
