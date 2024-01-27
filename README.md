@@ -1,7 +1,7 @@
 # Agricultural Productivity Along the NSW Coastline:
 This research project evaluated the Agricultural viability of NSW's Coastal Local Government Areas. Originally undertaken as a work project and re-completed here, it showcases the utilisation of excel, R (Programming language) and concludes in a short report on the findings.
 
-## Data Sourcing
+## Data Sourcing & Wrangling
 The first component of this research project was sourcing appropriate data that could be referenced to quantify the level of agricultural production for different regions along the NSW coastline. While there are many sources that claim to have accurate numbers in their reports, it was important that the data source have a level of public authority and trust behind their reporting.
 
 After some preliminary research I discovered the Australian Government's [*Australian Agricultural Census 2020-2021*](https://www.agriculture.gov.au/abares/aclump/land-use/agriculture-census-dashboards) that is run and managed by the Department of Agriculture, Fisheries and Forestry. Importantly, this has two dashboards that utilise data from the census, extracting  key metrics by [Local Government Area (LGA)](https://www.agriculture.gov.au/abares/aclump/land-use/agriculture-census-dashboards-lga) and [Australian Statistics Geography Standard Edition 3 regions](https://www.agriculture.gov.au/abares/aclump/land-use/agriculture-census-dashboards-sa2), commonly known as "Statistical Areas". The image below is a screenshot of one of these dashboards.
