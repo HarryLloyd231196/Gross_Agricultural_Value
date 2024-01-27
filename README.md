@@ -62,3 +62,5 @@ The issue with the above code is that for some LGA's certain commodities were no
 
 With the table correctly filled and data  formatted, the following stages of this analysis were undertaken in R Studio to allow for a highly tailored approach to the investigation.
 
+## . . . Dashboard in progress . . .
+
